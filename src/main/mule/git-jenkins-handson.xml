@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="git-jenkins-handsonFlow" doc:id="e14174ad-3b38-4603-95a2-3493ae60736b" >
 		<http:listener doc:name="Listener" doc:id="a9aa2792-4bc1-4af6-9689-423d206816e7" config-ref="HTTP_Listener_config" path="/demo"/>
 		<set-payload value='#["hello"]' doc:name="Set Payload" doc:id="f6d9ed76-272d-41ad-a72d-e5b25a1df338" />
-		<logger level="INFO" doc:name="Logger" doc:id="3d3e011e-5a1a-4b4c-b87e-5377e283da5b" message='"hai"'/>
+		<logger level="INFO" doc:name="Logger" doc:id="3d3e011e-5a1a-4b4c-b87e-5377e283da5b" message='"haaai"'/>
 	</flow>
 </mule>
